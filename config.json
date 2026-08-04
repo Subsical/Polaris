@@ -1,13 +1,13 @@
 {
-  "test_server_ids": ["12345678"],
+  "test_server_ids": ["954760200777265162"],
 
-  "developer_ids": ["12345678"],
+  "developer_ids": ["329990417590255617"],
 
   "lockBotToDevOnly": false,
   
   "enableWebServer": true,
   "serverPort": 6880,
-  "siteURL": "http://localhost:6880",
+  "siteURL": "https://polaris.subsical.com",
   
   "changelogURL": "",
   "supportURL": ""

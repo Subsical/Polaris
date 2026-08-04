@@ -928,6 +928,6 @@ app.use(function (err, req, res, next) {
 process.on('uncaughtException', (e) => { console.warn(e) });
 process.on('unhandledRejection', (e, p) => { console.warn(e) });
 
-app.listen(auth.serverPort, () => console.log(`Web server online at http://localhost:${auth.serverPort} (${+process.uptime().toFixed(2)} secs)`));
+app.listen(auth.serverPort, '0.0.0.0', () => console.log(`Web server online at http://0.0.0.0:${auth.serverPort} (${+process.uptime().toFixed(2)} secs)`));
 
 }
